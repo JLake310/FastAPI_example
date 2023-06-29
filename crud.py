@@ -1,7 +1,7 @@
 from sqlalchemy.orm import Session
 
 # 기존에 생성한 모델과 스키마 불러오기
-from . import models, schemas
+import models, schemas
 
 
 # 데이터 읽기 - ID로 사용자 불러오기

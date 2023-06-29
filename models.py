@@ -2,7 +2,7 @@ from sqlalchemy import Boolean, Column, ForeignKey, Integer, String
 from sqlalchemy.orm import relationship
 
 # database.py에서 생성한 Base import
-from .database import Base
+from database import Base
 
 
 # Base를 상속 받아 SQLAlchemy model 생성

@@ -3,8 +3,8 @@ from typing import List
 from fastapi import Depends, FastAPI, HTTPException
 from sqlalchemy.orm import Session
 
-from . import crud, models, schemas
-from .database import SessionLocal, engine
+import crud, models, schemas
+from database import SessionLocal, engine
 
 # 데이터베이스 테이블 생성하기
 models.Base.metadata.create_all(bind=engine)
