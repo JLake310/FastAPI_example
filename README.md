@@ -1,2 +1,4 @@
 # FastAPI_example
- FastAPI example
+```bash
+uvicorn main:app --reload
+```
